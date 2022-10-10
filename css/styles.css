@@ -1,10 +1,133 @@
+* {
+  list-style-type: none;
+}
+* {
+  text-decoration: none;
+}
+
+h3 {
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
+
 .body-idx {
   background-color: #ffffff;
   font-family: "Roboto";
 }
 
 .header {
+  max-width: 1200px;
+}
+
+.container-header {
   background-color: #ffffff;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 16px;
+  border-bottom: 1px solid #ececec;
+}
+.header-container {
+  display: flex;
+  align-items: center;
+}
+
+.flex-content {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+  gap: 93px;
+  margin-left: 215px;
+}
+
+.header-menu {
+  display: flex;
+  gap: 50px;
+}
+
+.header-address {
+  display: flex;
+  gap: 50px;
+}
+
+.container-main {
+  display: inline-block;
+  width: 100%;
+  max-width: 1200px;
+  height: 600px;
+  margin: 0 auto;
+  padding: 0 16px;
+  background-color: #2f303a;
+}
+
+.container-portfolio {
+  width: 100%;
+  max-width: 1200px;
+  left: 215px;
+  top: 174px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+
+.container-text {
+  width: 100%;
+  max-width: 1200px;
+  left: 200px;
+  top: 774px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+
+.container-content {
+  width: 100%;
+  max-width: 1200px;
+  left: 215px;
+  top: 966px;
+  margin: 0 auto;
+  padding: 0 16px;
+ text-align: center;
+ padding: 118px 0 50px 0;
+}
+
+.flex-container-content{
+  display: flex;
+
+}
+
+.flex-images{
+  display: flex;
+  align-items: flex-start ;
+  gap: 30px;
+}
+
+.container-team {
+ width: 1300px;
+  left: 0px;
+  top: 1446px;
+  margin: 0 auto;
+  padding: 0 16px;
+  background-color: #f5f4fa;
+}
+
+.team-menu{
+  display: flex;
+  gap: 30px;
+  text-align: center;
+  
+}
+
+
+.container-footer {
+  width: 100%;
+  max-width: 1600px;
+  left: 0px;
+  top: 1446px;
+  margin: 0 auto;
+  padding: 0 16px;
+  background: #2f303a;
 }
 
 .webstudio {
@@ -45,43 +168,65 @@
   color: #2196f3;
 }
 
-.section-main {
-  background: #2f303a;
+.flex-text {
+  display: flex;
+}
+
+.main-menu {
+  display: flex;
+  gap: 30px;
+  text-align: start;
+  flex-grow: 1;
 }
 
 .hero-title {
+  position: absolute;
+  width: 696px;
+  height: 120px;
+  left: 290px;
+  top: 280px;
+
   font-family: "Roboto";
   font-style: normal;
   font-weight: 900;
   font-size: 44px;
   line-height: 60px;
+  /* or 136% */
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+
   color: #ffffff;
 }
 
 .button {
+  position: absolute;
+  margin: 30px;
+  width: 216px;
+  height: 50px;
+  left: 502px;
+  top: 430px;
   color: #ffffff;
   background: #2196f3;
+  align-items: center;
+  border-radius: 4px;
 }
 
 .button:hover {
   color: #ffffff;
   cursor: pointer;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
-.first-section {
+.section {
   font-family: "Roboto";
   font-style: normal;
+  width: 100%;
+  max-width: 1600px;
 }
 
 .section-title {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-
   color: #212121;
 }
 
@@ -91,15 +236,13 @@
   font-weight: 400;
   font-size: 14px;
   line-height: 24px;
-
   letter-spacing: 0.03em;
-
   color: #757575;
 }
 
-/*.section-content {
-
-}*/
+.section {
+  padding: 0 47px 0 47px;
+}
 
 .section-content-title {
   font-family: "Roboto";
@@ -112,11 +255,7 @@
   color: #212121;
 }
 
-.section-team {
-  background-color: #f5f4fa;
-}
-
-.ection-team-titl {
+.section-team-title {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
@@ -142,22 +281,26 @@
   font-size: 16px;
   line-height: 19px;
   letter-spacing: 0.03em;
-
+margin: 30px 70px 10px 70px ;
   color: #212121;
 }
 
 .work-name {
+  max-width: 140px;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 19px;
   letter-spacing: 0.03em;
-
+  margin: 10px 70px 30px 70px ;
   color: #757575;
+  text-decoration: none ;
+  
 }
 
 .footer {
+  width: 1600px;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
@@ -168,8 +311,6 @@
   letter-spacing: 0.03em;
 
   color: #ffffff;
-
-  background: #2f303a;
 }
 
 .webstudio-footer {
