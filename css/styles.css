@@ -109,11 +109,10 @@ p {
   background-color: #2f303a;
 }
 
-.section-flex{
+.section-flex {
   max-width: 1600px;
   padding: 94px 0;
 }
-
 
 .container-main {
   display: inline-block;
@@ -144,10 +143,12 @@ p {
   font-size: 16px;
   line-height: 30px;
   display: flex;
-align-items: center;
-text-align: center;
-letter-spacing: 0.06em;
-background-color: #2196f3;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  border-radius: 4px;
+  background-color: #2196f3;
+  padding: 10px 32px;
 }
 
 .button:hover {
@@ -171,7 +172,7 @@ background-color: #2196f3;
 }
 
 .section-title {
-  font-family: 'Roboto';
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
   font-size: 14px;
@@ -187,15 +188,15 @@ background-color: #2196f3;
   font-size: 14px;
   line-height: 24px;
   /* or 171% */
-  
+
   letter-spacing: 0.03em;
-  
+
   color: #757575;
 }
 
-.section-content{
+.section-content {
   max-width: 1600px;
-padding-top: 0;
+  padding-top: 0;
 }
 
 .container-content {
@@ -220,8 +221,8 @@ padding-top: 0;
   display: flex;
 }
 
-img{
-  width:calc(370px);
+img {
+  width: calc(370px);
   display: block;
   max-width: 100%;
   height: auto;
@@ -245,7 +246,7 @@ img{
   line-height: 42px;
   text-align: center;
   letter-spacing: 0.03em;
-margin-bottom: 50px;
+  margin-bottom: 50px;
   color: #212121;
 }
 
@@ -276,10 +277,10 @@ margin-bottom: 50px;
   font-size: 16px;
   line-height: 19px;
   /* identical to box height */
-  
+
   text-align: center;
   letter-spacing: 0.03em;
-  
+
   color: #757575;
   text-decoration: none;
   padding-bottom: 30px;
@@ -294,26 +295,25 @@ margin-bottom: 50px;
   margin: 0 auto;
 }
 
-
 .webstudio-footer {
-  font-family: 'Raleway';
+  font-family: "Raleway";
   font-style: normal;
   font-weight: 700;
   font-size: 26px;
   line-height: 31px;
-margin-top: 0;
-margin-bottom: 50px;
+  margin-top: 0;
+  margin-bottom: 50px;
 }
 
-.footer-li-first{
+.footer-li-first {
   margin-top: 20px;
   margin-bottom: 9px;
 }
-.footer-li{
+.footer-li {
   margin-bottom: 9px;
 }
 
-.footer-il{
+.footer-il {
   margin-bottom: 0;
 }
 
@@ -328,15 +328,13 @@ margin-bottom: 50px;
   color: #ffffff;
 }
 
-.address-footer:hover{
+.address-footer:hover {
   color: #2196f3;
 }
 
-.container-footer-address{
+.container-footer-address {
   margin-bottom: 9px;
 }
-
-
 
 .footer-address {
   font-family: "Roboto";
@@ -357,11 +355,9 @@ margin-bottom: 50px;
 
 /*PORTFOLIO CSS*/
 
-
-.section{
+.section {
   padding: 94px 0;
 }
-
 
 .container-portfolio {
   width: 100%;
@@ -384,7 +380,7 @@ margin-bottom: 50px;
 .flex-nav-menu {
   display: flex;
   gap: 8px;
-justify-content: center;
+  justify-content: center;
 }
 
 .button-portfolio {
@@ -394,46 +390,38 @@ justify-content: center;
   margin-bottom: 50px;
 }
 
-
-
 .button-portfolio:hover {
   background-color: #2196f3;
   color: #ffffff;
   cursor: pointer;
 }
 
-
-
-
 .element-menu {
-display: flex;
-flex-wrap:wrap ;
-gap: 30px;
-width: 100%;
-max-width: 1200px;
-margin: 0 auto;
-padding: 0 15px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
 }
 
-
-.div-img{
+.div-img {
   padding: 20px 24px;
   border-bottom: 30px;
   border-right: 30px;
   border-width: 30px;
 }
 
-
-
 .main-title-portfolio {
   color: #212121;
   font-weight: 700;
-font-size: 18px;
-line-height: 36px;
+  font-size: 18px;
+  line-height: 36px;
 }
 
 .main-p-portfolio {
-  font-family: 'Roboto';
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
