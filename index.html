@@ -25,8 +25,7 @@
   </head>
   <body class="body-idx">
     <header class="header">
-      <div class="container-header">
-        <div class="header-container">
+      <div class="container-header header-container">
         <nav class="flex-content">
           <!--Header-->
           <a href="./index.html" lang="en" class="webstudio">
@@ -61,26 +60,21 @@
         </ul>
 
       </div>
-      </div>
     </header>
 
     <main >
       <!--Main-->
 
-      <section class="section" >
+      <section class="section-main" >
         <div class="container-main">
-          <div class="flex-main">
           <h1 class="hero-title">ЕФЕКТИВНІ РІШЕННЯ ДЛЯ ВАШОГО БІЗНЕСУ</h1>
           <button type="button" class="button">Замовити послугу</button>
         </div>
-        </div>
       </section>
 
-      <section class="section" style="background-color: #ffffff">
+      <section class="section-flex" style="background-color: #ffffff">
         <div class="container-text">
-          <h2 style="text-indent: -999em">Переваги</h2>
-          <div class="flex-container">
-            <div class="flex-text">
+          <h2 style="display: none;">Переваги</h2>
           <ul class="main-menu">
               <li>
                 <h3 class="section-title">УВАГА ДО ДЕТАЛЕЙ</h3>
@@ -112,40 +106,33 @@
                   планових завдань.
                 </p>
               </li>
-            </div>
           </ul>
         </div>
-        </div>
       </section>
-      <section class="section">
+      <section class="section-content">
         <div class="container-content">
-          
-          <!--Content-->
 
           <h2 class="section-content-title">Чим ми займаємося</h2>
-          <div class="flex-container-content">
           <ul class="flex-images">
             <li>
               <img
                 src="./images/planshet.jpg"
                 alt="Photo"
-                style="width: 370px"
               />
             </li>
 
             <li>
-              <img src="./images/book.jpg" alt="Photo" style="width: 370px" />
+              <img src="./images/book.jpg" alt="Photo"  />
             </li>
 
             <li>
               <img
                 src="./images/planshet2.jpg"
                 alt="Photo"
-                style="width: 370px"
+
               />
             </li>
           </ul>
-        </div>
         </div>
       </section>
       <section class="section">
@@ -153,32 +140,30 @@
           <!--OurTeam-->
 
           <h2 class="section-team-title">Наша команда</h2>
-            <div class="flex-team">
           <ul class="team-menu">
             <li class="box-card">
-              <img src="./images/igor.jpg" alt="Photo" style="width: 270px" />
+              <img src="./images/igor.jpg" alt="Photo" />
               <h3 class="card-name">Ігор Дем'яненко</h3>
               <p class="work-name">Product Desinger</p>
             </li>
 
             <li class="box-card">
-              <img src="./images/olga.jpg" alt="Photo" style="width: 270px" />
+              <img src="./images/olga.jpg" alt="Photo" />
               <h3 class="card-name">Ольга Рєпіна</h3>
               <p class="work-name">Frontend Developer</p>
             </li>
 
             <li class="box-card">
-              <img src="./images/mikola.jpg" alt="Photo" style="width: 270px" />
+              <img src="./images/mikola.jpg" alt="Photo"  />
               <h3 class="card-name">Микола Тарасов</h3>
               <p class="work-name">Marketing</p>
             </li>
             <li class="box-card">
-              <img src="./images/misha.jpg" alt="Photo" style="width: 270px" />
+              <img src="./images/misha.jpg" alt="Photo"/>
               <h3 class="card-name">Михайло Єрмаков</h3>
               <p class="work-name">UI Desinger</p>
             </li>
           </ul>
-        </div>
         </div>
       </section>
     </main>
@@ -188,25 +173,26 @@
           <span style="color: #2196f3">Web</span
           ><span style="color: #ffffff">Studio</span>
         </a>
-        <ul>
-          <li>
-            <address>
+        <address>
+        <ul class="container-footer-address">
+          <li class="footer-li-first">  
               <a href="м.Київ,пр-тЛесіУкраїнки,26">
-                <span class="address">м. Київ, пр-т Лесі Українки, 26</span>
+                <span class="address-footer">м. Київ, пр-т Лесі Українки, 26</span>
               </a>
-            </address>
+            
           </li>
-          <li>
+          <li class="footer-li">
             <a href="meilto:info@devstudio.com">
               <span class="footer-address">info@devstudio.com</span>
             </a>
           </li>
-          <li>
+          <li class="footer-il">
             <a href="tel:+380961111111">
               <span class="footer-address">+38 096 111 11 11</span>
             </a>
           </li>
         </ul>
+      </address>
       </div>
     </footer>
   </body>
