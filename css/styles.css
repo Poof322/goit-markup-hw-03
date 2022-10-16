@@ -246,10 +246,9 @@ img {
 }
 
 .section {
-  width: 100%;
-  max-width: 1600px;
   margin: 0 auto;
   background-color: #f5f4fa;
+  padding: 94px;
 }
 
 /*.container-team {
@@ -377,8 +376,6 @@ img {
 
 .section-portfolio {
   padding: 94px 0;
-  width: 100%;
-  max-width: 1600px;
   margin: 0 auto;
   background: #ffffff;
 }
@@ -439,10 +436,10 @@ img {
 
 .div-img {
   padding: 20px 24px;
+  border-top: none;
   border-bottom: 30px;
   border-right: 30px;
   border-width: 30px;
-  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
   border: 1px solid #EEEEEE;
 }
 
